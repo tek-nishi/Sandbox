@@ -41,6 +41,7 @@ void CinderProjectApp::setup()
 
 	rx = ry = rz = 0;
 
+	// ƒtƒHƒ“ƒg¶¬
 	font = Font("Consolas", 25);
 
 	gl::enableDepthRead();
