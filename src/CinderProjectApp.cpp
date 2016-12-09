@@ -30,6 +30,7 @@ public:
 
 void CinderProjectApp::setup()
 {
+	// ƒJƒƒ‰‚ğ¶¬
 	camera = CameraPersp(getWindowWidth(), getWindowHeight(),
 		30.0f,
 		0.1f, 100.0f);
