@@ -1,3 +1,6 @@
+//
+// クオータニオンサンプル
+//
 
 #include <cinder/app/AppNative.h>
 #include <cinder/gl/gl.h>
@@ -45,6 +48,7 @@ void CinderProjectApp::setup()
 	// フォント生成
 	font = Font("Consolas", 25);
 
+	// OpenGL設定
 	gl::enableDepthRead();
 	gl::enableDepthWrite();
 	gl::enable(GL_CULL_FACE);
