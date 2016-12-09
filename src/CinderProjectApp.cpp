@@ -44,6 +44,7 @@ void CinderProjectApp::setup()
 	// ƒtƒHƒ“ƒg¶¬
 	font = Font("Consolas", 25);
 
+	// OpenGLİ’è
 	gl::enableDepthRead();
 	gl::enableDepthWrite();
 	gl::enable(GL_CULL_FACE);
