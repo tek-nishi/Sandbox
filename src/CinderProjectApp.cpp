@@ -39,6 +39,7 @@ void CinderProjectApp::setup()
 	// FIXME: setEyePointの後でsetCenterOfInterestPointを呼び出す事
 	camera.setCenterOfInterestPoint(Vec3f(0, 0, 0));
 
+	// 向きの初期化
 	rx = ry = rz = 0;
 
 	// フォント生成
